@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Threading;
 using Spire.Pdf;
+using Spire.Pdf.HtmlConverter;
 
 namespace AppNetBarcode
 {
@@ -24,15 +26,17 @@ namespace AppNetBarcode
             var value1 = barcode.GetBase64Image();
 
 
-//            byte[] bytes = Convert.FromBase64String(value1);
+            //            byte[] bytes = Convert.FromBase64String(value1);
 
 
-//System.IO.FileStream stream =
-//    new FileStream(Directory.GetCurrentDirectory() + "test.pdf", FileMode.CreateNew);
-//            System.IO.BinaryWriter writer =
-//                new BinaryWriter(stream);
-//            writer.Write(bytes, 0, bytes.Length);
-//            writer.Close();
+            //System.IO.FileStream stream =
+            //    new FileStream(Directory.GetCurrentDirectory() + "test.pdf", FileMode.CreateNew);
+            //            System.IO.BinaryWriter writer =
+            //                new BinaryWriter(stream);
+            //            writer.Write(bytes, 0, bytes.Length);
+            //            writer.Close();
+
+
 
 
 

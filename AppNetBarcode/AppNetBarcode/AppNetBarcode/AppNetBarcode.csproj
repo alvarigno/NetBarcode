@@ -11,6 +11,7 @@
     <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.8.64" />
     <PackageReference Include="FreeSpire.PDF" Version="6.2.0" />
     <PackageReference Include="Spire.PDF" Version="6.4.11" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Types\" />
