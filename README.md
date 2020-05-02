@@ -59,3 +59,8 @@ var value = barcode.GetBase64Image();
 ## License
 
 NetBarcode is shared under the MIT license. This means you can modify and use it however you want, even for comercial use. But please give this the Github repo a ⭐️.
+
+
+## Needed for Drawing
+runtime.osx.10.10-x64.CoreCompat.System.Drawing
+nuget package
