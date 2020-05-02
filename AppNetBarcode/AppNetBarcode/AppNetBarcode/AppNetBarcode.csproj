@@ -9,6 +9,8 @@
     <PackageReference Include="NetBarcode" Version="1.0.8" />
     <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
     <PackageReference Include="runtime.osx.10.10-x64.CoreCompat.System.Drawing" Version="5.8.64" />
+    <PackageReference Include="FreeSpire.PDF" Version="6.2.0" />
+    <PackageReference Include="Spire.PDF" Version="6.4.11" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Types\" />
